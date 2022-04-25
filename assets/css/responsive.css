@@ -1,0 +1,57 @@
+/*------------- Responsive --------------------*/
+@media(max-width:991px)
+{
+.login-signup-nav{display:none;}	
+
+}
+@media(max-width:767px) {
+	.navbar-header {
+    float: left;
+    padding-left: 25px;
+}
+nav.site-naviagtion {
+    float: right;
+}
+nav.site-naviagtion ul li {
+    display: inline-block;
+}
+ul.nav.navbar-nav.navbar-right {
+    margin: 0;
+}
+.login-left-image img {
+    max-width: 100%;
+    margin: auto;
+}
+.proudly-footer-wrapper{text-align:center;}
+.proudly-footer-wrapper h3{float:none;}
+
+.footer-nav li a{padding: 7px 0;border-bottom: 1px solid #777;}
+.footer-nav{margin-bottom:35px}
+.footer-bottom-text{text-align:center;}
+.footer-menu{float:left;width:100%}
+.footer-menu ul{text-align:center;}
+.signup-features{display:none;}
+}
+
+
+@media(max-width:639px) {
+.site-naviagtion ul li a span {
+    display: none;
+}
+.site-naviagtion ul li img.message-icon {
+    top: 0;
+    margin-right: 0;
+}
+.site-naviagtion ul li a {
+    padding: 18px 8px;
+}
+
+}
+
+@media(max-width:479px) 
+{
+.proudly-footer-wrapper ul li{padding: 0 5px;}	
+.soci-link, .soci-link-btn{text-align:center}
+.signup-btn-box .btn{width:100%;}
+	
+}
